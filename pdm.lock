@@ -1,0 +1,62 @@
+[[package]]
+name = "click"
+version = "8.1.3"
+requires_python = ">=3.7"
+summary = "Composable command line interface toolkit"
+dependencies = [
+    "colorama; platform_system == \"Windows\"",
+]
+
+[[package]]
+name = "colorama"
+version = "0.4.5"
+requires_python = ">=2.7, !=3.0.*, !=3.1.*, !=3.2.*, !=3.3.*, !=3.4.*"
+summary = "Cross-platform colored terminal text."
+
+[[package]]
+name = "easysnmp"
+version = "0.2.6"
+summary = "A blazingly fast and Pythonic SNMP library based on the official Net-SNMP bindings"
+
+[[package]]
+name = "typer"
+version = "0.6.1"
+requires_python = ">=3.6"
+summary = "Typer, build great CLIs. Easy to code. Based on Python type hints."
+dependencies = [
+    "click<9.0.0,>=7.1.1",
+]
+
+[metadata]
+lock_version = "3.1"
+content_hash = "sha256:d067937bf66e6c73aa83586a1583edca4263a9f41c595d544a88152faffc1090"
+
+[metadata.files]
+"click 8.1.3" = [
+    {file = "click-8.1.3-py3-none-any.whl", hash = "sha256:bb4d8133cb15a609f44e8213d9b391b0809795062913b383c62be0ee95b1db48"},
+    {file = "click-8.1.3.tar.gz", hash = "sha256:7682dc8afb30297001674575ea00d1814d808d6a36af415a82bd481d37ba7b8e"},
+]
+"colorama 0.4.5" = [
+    {file = "colorama-0.4.5-py2.py3-none-any.whl", hash = "sha256:854bf444933e37f5824ae7bfc1e98d5bce2ebe4160d46b5edf346a89358e99da"},
+    {file = "colorama-0.4.5.tar.gz", hash = "sha256:e6c6b4334fc50988a639d9b98aa429a0b57da6e17b9a44f0451f930b6967b7a4"},
+]
+"easysnmp 0.2.6" = [
+    {file = "easysnmp-0.2.6-cp310-cp310-macosx_10_9_x86_64.whl", hash = "sha256:e7a1a0f7b9672a132b22a486117781285c22faa5fe55d9a53e57ba79eb28f92e"},
+    {file = "easysnmp-0.2.6-cp310-cp310-manylinux_2_24_x86_64.whl", hash = "sha256:f76feb57e2649ae38ccfd5fd03d695b35734c1217151ca5d868fd0efe5849c46"},
+    {file = "easysnmp-0.2.6-cp36-cp36m-macosx_10_9_x86_64.whl", hash = "sha256:6eed5df81a2fff46aa8035bfdc66fda1da525e7cd7159676ab264f1ab3a55897"},
+    {file = "easysnmp-0.2.6-cp36-cp36m-manylinux_2_24_x86_64.whl", hash = "sha256:e6a2e97cd69fdb73a92f626a56ff022f909884e65dc1958ce9d77677aa69af57"},
+    {file = "easysnmp-0.2.6-cp37-cp37m-macosx_10_9_x86_64.whl", hash = "sha256:d5e98cbbe57b8198c0e79cec1d6c0ef567f91375f2e720a001db8990363958d5"},
+    {file = "easysnmp-0.2.6-cp37-cp37m-manylinux_2_24_x86_64.whl", hash = "sha256:e1df508e28aa055bd7deeb13394d7821b6d341a9eacce5aefbc4a8c143801ff8"},
+    {file = "easysnmp-0.2.6-cp38-cp38-macosx_10_9_x86_64.whl", hash = "sha256:a2f772217278cf7e4176ae25c171f44533b5e31d8f6c88202ea99a08a806aeb7"},
+    {file = "easysnmp-0.2.6-cp38-cp38-manylinux_2_24_x86_64.whl", hash = "sha256:081b1d11662c94a621867514c5111484039011945c83eb0b25778c3992c1fdaa"},
+    {file = "easysnmp-0.2.6-cp39-cp39-macosx_10_9_x86_64.whl", hash = "sha256:d50fe515e5f5e04967deabddf56f343727a0c223013342e9ac96db6cc36a14e1"},
+    {file = "easysnmp-0.2.6-cp39-cp39-manylinux_2_24_x86_64.whl", hash = "sha256:6600d7be6a01e7339887e01e99651cc3654bacf5579660ad25a92f874a5c2f31"},
+    {file = "easysnmp-0.2.6-pp37-pypy37_pp73-macosx_10_9_x86_64.whl", hash = "sha256:41273ce4e073847441eb9e9b576d3018c11916fa6ef33dbdbe995830c9711bf3"},
+    {file = "easysnmp-0.2.6-pp38-pypy38_pp73-macosx_10_9_x86_64.whl", hash = "sha256:a57b2fe7c8f49b0bacb12214f0fb952ffed4a40326faa30dc417f04a68d2fb2d"},
+    {file = "easysnmp-0.2.6-pp39-pypy39_pp73-macosx_10_9_x86_64.whl", hash = "sha256:9fc6dee930f31d34cf37153dccc2df343afc3aaa2cd35bf0d54250f61b6f7d96"},
+    {file = "easysnmp-0.2.6.tar.gz", hash = "sha256:8326df1bc8d9cdb29e3e43d55d56cb24c0d98f6997a7a1571f32815e8bdfef15"},
+]
+"typer 0.6.1" = [
+    {file = "typer-0.6.1-py3-none-any.whl", hash = "sha256:54b19e5df18654070a82f8c2aa1da456a4ac16a2a83e6dcd9f170e291c56338e"},
+    {file = "typer-0.6.1.tar.gz", hash = "sha256:2d5720a5e63f73eaf31edaa15f6ab87f35f0690f8ca233017d7d23d743a91d73"},
+]
