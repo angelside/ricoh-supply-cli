@@ -11,7 +11,7 @@ serialNumCode        = '.1.3.6.1.2.1.43.5.1.1.17.1'
 supplyNamesSNMPCode  = '.1.3.6.1.2.1.43.12.1.1.4.1'
 supplyLevelsSNMPCode = '.1.3.6.1.2.1.43.11.1.1.9.1'
 
-def check(ip):
+def snmp_request(ip):
     try:
         # Create an SNMP session to be used for all our requests
         session = Session(
@@ -81,7 +81,7 @@ def main(ip):
 
     validate_ip_address(ip)
 
-    result = check(ip)
+    result = snmp_request(ip)
 
     print(f"ip: {result['ip']} - model: {result['model']} - serial: {result['serial']}")
     print()
